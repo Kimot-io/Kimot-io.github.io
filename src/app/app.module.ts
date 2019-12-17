@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit } from '@angular/core';
 
 import { AppComponent } from './app.component';
+
+import * as AOS from 'aos';
 
 @NgModule({
   declarations: [
@@ -13,4 +15,8 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule implements OnInit {
+  ngOnInit() {
+    AOS.init();
+  }
+}
