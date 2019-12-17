@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href https://kimot-io.github.io/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://kimot-io.github.io/ && angular-cli-ghpages --branch master"
+    "deploy": "ngh --dir dist/angular-app --branch master"
   },
   "private": true,
   "dependencies": {
