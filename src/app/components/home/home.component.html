@@ -1,3 +1,91 @@
+<nav id="header" class="w-full z-30 top-0 text-white py-1 lg:py-6">
+  <div
+    class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-2 lg:py-6"
+  >
+    <div class="pl-4 flex items-center">
+      <a
+        class="text-black no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+        href="#"
+      >
+        <svg
+          class="h-6 w-6 inline-block fill-current text-orange-700"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+        >
+          <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z" />
+        </svg>
+        KIMOT
+      </a>
+    </div>
+
+    <div class="block lg:hidden pr-4">
+      <button
+        id="nav-toggle"
+        class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
+      >
+        <svg
+          class="fill-current h-3 w-3"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
+
+    <div
+      class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20"
+      id="nav-content"
+    >
+      <ul class="list-reset lg:flex justify-end flex-1 items-center">
+        <li class="mr-3">
+          <a class="inline-block py-2 px-4 text-black font-bold text-lg no-underline" href="#">Home</a>
+        </li>
+        <li class="mr-3">
+          <a class="inline-block py-2 px-4 text-black font-normal text-lg no-underline"href="#">Services</a>
+        </li>
+        <li class="mr-3">
+          <a class="inline-block py-2 px-4 text-black font-normal text-lg no-underline"href="#">Work</a>
+        </li>
+        <li class="mr-3">
+          <a class="inline-block py-2 px-4 text-black font-normal text-lg no-underline" href="#">About</a>
+        </li>
+        <li class="mr-3">
+          <a class="inline-block py-2 px-4 text-black font-normal text-lg no-underline" href="#" >Contact</a>
+        </li>
+        <li class="mr-3">
+          <a class="inline-block py-2 px-4 text-black font-normal text-lg no-underline" href="#" >Careers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mx-auto h-screen">
+  <div class="text-center px-3 lg:px-0">
+    <div class="pl-20 pt-64 text-left">
+      <p class="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight">Creating high-value</p>
+      <p class="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight">software!</p>
+    </div>
+    <div class="pl-20 text-left">
+    <p class="leading-normal text-gray-800 text-left md:text-xl lg:text-2xl">
+      Experts focused on delivering quality products, we make
+    </p>
+    <p class="leading-normal text-gray-800 text-left md:text-xl lg:text-2xl">
+      great designs in order to provide highly valuable solutions.
+    </p>
+    </div>
+
+  </div>
+
+  <div class="flex items-center w-full mx-auto content-end">
+    <div
+      class="browser-mockup flex flex-1 m-6 md:px-0 md:m-12 bg-white w-1/2 rounded shadow-xl"
+    ></div>
+  </div>
+</div>
+
 <nav class="flex items-center justify-between flex-wrap bg-red-500 p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
@@ -13,7 +101,7 @@
         <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-10">
           </a>
         <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-10">
-            Home 
+            Home
         </a>
         <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-10">
           Services
@@ -36,13 +124,13 @@
 
   <!-- Display Container (not part of component) START -->
   <div class="m-0 mx-auto p-16 sm:p-24 lg:p-48 bg-white-200">
-    
+
     <!-- Carousel Body -->
     <div class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl" style="min-height: 19rem;">
-      
+
       <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
         <div class="p-12 md:pr-24 md:pl-16 md:py-12">
-          <p class="text-gray-600"><span class="text-gray-900">    <h1 class="block w-full text-center text-grey-darkest mb-6"><p class="text-6xl ..."><b>Creating high-value software</b> </p></h1></span> 
+          <p class="text-gray-600"><span class="text-gray-900">    <h1 class="block w-full text-center text-grey-darkest mb-6"><p class="text-6xl ..."><b>Creating high-value software</b> </p></h1></span>
             Experts focused on delivering quality products, we make great designs in order to provide highly valuable solutions.</p>
           <a class="flex items-baseline mt-3 text-indigo-600 hover:text-indigo-900 focus:text-indigo-900" href="">
           </a>
@@ -51,12 +139,12 @@
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
       </div>
-      
+
     </div>
-    
+
     <!-- Carousel Tabs -->
     <div class="flex items-center pt-5 justify-between">
     </div>
-    
+
   </div>
   <!-- Display Container (not part of component) END -->
