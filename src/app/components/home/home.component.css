@@ -1,0 +1,7 @@
+.bg-intro {
+    background-image: url(../../../assets/bg-intro.svg);
+    background-repeat: no-repeat;
+    background-position: bottom -1px center;
+    background-size: 100%;
+    height: calc(100vh + 100px);
+}
