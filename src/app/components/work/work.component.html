@@ -1,26 +1,53 @@
-<section class="container mx-auto pt-32">
-    <div class="shadow-our-work-shadow bg-gray-300 max-w-3xl mx-auto my-10 p-6">
-        <h1>Our work</h1>
-        <span>Check our latest projects</span>
+<section class="pt-40">
+  <div class="max-w-5xl mx-auto pt-20 p-8 flex justify-end">
+  <h3 class="font-display-italic font-extrabold text-5xl md:text-6xl italic leading-none mb-12 max-w-xl">Our work.</h3>
+  </div>
+  <div class="container max-w-5xl mx-auto m-8">
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
     </div>
-
-    <div class="flex mx-auto">
-        <div *ngFor="let item of projects" class="text-center flex-1 shadow-md mx-4 p-6 bg-gray-200 rounded-lg">
-            <div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/tt_tailwind_logo.jpg"
-                    alt="logo"
-                    class="rounded-full mx-auto my-5 h-32 w-32 border-4 border-solid">
-            </div>
-
-            <div class="my-5">
-                <div>
-                    <h3>{{item.title}}</h3>
-                </div>
-
-                <div>
-                    <span>{{item.description}}</span>
-                </div>
-            </div>
+    <div class="flex flex-wrap">
+      <div class="w-5/6 sm:w-1/2 p-6 text-right">
+        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Project 1</h3>
+        <p class="text-gray-600 mb-8">Eros in cursus turpis massa tincidunt dui ut ornare. Vestibulum morbi blandit cursus risus at ultrices mi. Augue ut lectus arcu bibendum at varius.<br /><br />
+        <div style="float: right;">
+          <a href="#">
+            <img src="../../../assets/images/stores/App Store.svg" class="h-12 pr-4 bounce-top-icons">
+          </a>
+          <br>
+          <a href="#">
+            <img src="../../../assets/images/stores/Play Store.svg" class="h-12 bounce-top-icons">
+          </a>
         </div>
+      </div>
+      <div class="w-full sm:w-1/2 p-6">
+        <a>
+          <img src="https://images.unsplash.com/photo-1524010349062-860def6649c3?w=800" class="w-full h-64 object-cover mb-6" />
+        </a>
+      </div>
     </div>
+
+    <div class="pt-12 flex flex-wrap flex-col-reverse sm:flex-row">
+      <div class="w-full sm:w-1/2 p-6 mt-6">
+        <a>
+					<img src="https://images.unsplash.com/photo-1469210537992-30c8c8abef12?w=800" class="w-full h-64 object-cover mb-6" />
+				</a>
+      </div>
+      <div class="w-full sm:w-1/2 p-6 mt-6">
+        <div class="align-middle">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Project 2</h3>
+          <p class="text-gray-600 mb-8">Eros in cursus turpis massa tincidunt dui ut ornare. Vestibulum morbi blandit cursus risus at ultrices mi. Augue ut lectus arcu bibendum at varius.<br /><br />
+          <div style="float: left;">
+            <a href="#">
+              <img src="../../../assets/images/stores/App Store.svg" class="h-12 pr-4 bounce-top-icons">
+            </a>
+            <br>
+            <a href="#">
+              <img src="../../../assets/images/stores/Play Store.svg" class="h-12 bounce-top-icons">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
