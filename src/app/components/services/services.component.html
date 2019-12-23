@@ -11,44 +11,19 @@
       </p>
     </div>
 
-
     <!-- CARDS SERVICES -->
     <div class="container mx-auto">
-        <div class="flex md:flex-wrap mt-24 text-center md:-mx-4">
+      <div class="flex items-stretch flex-wrap mt-16 text-center mx-3">
 
-            <div class="md:w-1/2 md:px-4 lg:w-1/4">
-              <div class="shadow-lg bg-white rounded-lg border border-gray-300 p-8">
-                <img src="../../../assets/images/others/web-service.png" alt="" class="h-20 mx-auto">
-                <h4 class="text-xl font-bold mt-4">Web Development</h4>
-                <p class="mt-1 pt-4">We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.</p>
-              </div>
-            </div>
-      
-            <div class="md:w-1/2 md:px-4 lg:w-1/4">
-              <div class="shadow-lg bg-white rounded-lg border border-gray-300 p-8">
-                <img src="../../../assets/images/others/mobile-service.png" alt="" class="h-20 mx-auto">
-                <h4 class="text-xl font-bold mt-4">Mobile Development</h4>
-                <p class="mt-1 pt-4">We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.</p>
-              </div>
-            </div>
-      
-            <div class="md:w-1/2 md:px-4 lg:w-1/4">
-              <div class="shadow-lg bg-white rounded-lg border border-gray-300 p-8">
-                <img src="../../../assets/images/others/ai-service.png" alt="" class="h-20 mx-auto">
-                <h4 class="text-xl font-bold mt-4">Artificial Intelligence</h4>
-                <p class="mt-1 pt-4">We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.</p>
-              </div>
-            </div>
-      
-            <div class="md:w-1/2 md:px-4 lg:w-1/4">
-              <div class="shadow-lg bg-white rounded-lg border border-gray-300 p-8">
-                <img src="../../../assets/images/others/blockchain-service.png" alt="" class="h-20 mx-auto">
-                <h4 class="text-xl font-bold mt-4">Blockchain</h4>
-                <p class="mt-1 pt-4">We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.</p>
-              </div>
-            </div>
-        
+        <div *ngFor="let service of services" class="flex w-full my-2 md:w-1/2 md:p-4 lg:w-1/4">
+          <div class="shadow-lg bg-white rounded-lg border border-gray-300 p-8 h-full">
+            <img [src]="service.image" alt="" class="h-20 mx-auto">
+            <h4 class="text-xl font-bold mt-4">{{ service.title }}</h4>
+            <p class="mt-1 pt-4">{{ service.description }}</p>
           </div>
+        </div>
+    
+      </div>
     </div>
 
   </section>
