@@ -11,22 +11,22 @@ export class ServicesComponent implements OnInit {
     {
       image: '../../../assets/images/others/web-service.png',
       title: 'Web Development',
-      description: 'We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
       image: '../../../assets/images/others/mobile-service.png',
       title: 'Mobile Development',
-      description: 'We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
       image: '../../../assets/images/others/ai-service.png',
       title: 'Artificial Intelligence',
-      description: 'We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     },
     {
       image: '../../../assets/images/others/blockchain-service.png',
       title: 'Blockchain',
-      description: 'We have great experience in web development, we focus on performance and usability, both for browsers and mobile responsive using the latest technologies.'
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     }
   ]
 
