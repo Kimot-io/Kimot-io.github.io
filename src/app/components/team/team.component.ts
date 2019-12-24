@@ -24,7 +24,7 @@ export class TeamComponent implements OnInit {
       name: 'Pablo Pereira',
       description: 'Co-Founder & Full-Stack Developer',
       photo: '../../../assets/images/team/pablo-pereira.png',
-      linkedin: 'https://www.linkedin.com/in/pablo-pereira-759951117/'
+      linkedin: 'https://www.linkedin.com/in/pablocpm1/'
     }
 
   ];
