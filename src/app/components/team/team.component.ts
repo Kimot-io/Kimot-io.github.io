@@ -7,6 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 
+  team = [
+    {
+      name: 'Pablo Salazar',
+      description: 'Co-Founder & Back-End Developer',
+      photo: '../../../assets/images/team/pablo-salazar.jpg',
+      linkedin: 'https://www.linkedin.com/in/pablo-salazar-branchiccela-59868711a/'
+    },
+    {
+      name: 'Guillermo Biatturi',
+      description: 'Co-Founder & Front-End Developer',
+      photo: '../../../assets/images/team/guillermo-biatturi.jpg',
+      linkedin: 'https://www.linkedin.com/in/gbiatturi/'
+    },
+    {
+      name: 'Pablo Pereira',
+      description: 'Co-Founder & Full-Stack Developer',
+      photo: '../../../assets/images/team/pablo-pereira.png',
+      linkedin: 'https://www.linkedin.com/in/pablo-pereira-759951117/'
+    }
+
+  ];
+
   constructor() { }
 
   ngOnInit() {
