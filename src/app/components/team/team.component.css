@@ -3,6 +3,5 @@
 }
 
 .custom-card {
-  background: rgb(13,3,166);
-  background: linear-gradient(42deg, rgba(13,3,166,1) 0%, rgba(10,10,196,1) 12%, rgba(0,212,255,1) 100%);
+  background: #BE5169;
 }
