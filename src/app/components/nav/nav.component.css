@@ -1,0 +1,8 @@
+.sticky {
+    /* background: #1065b2 */
+    background: #c5506c; 
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

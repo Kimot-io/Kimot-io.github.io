@@ -4,6 +4,9 @@ import { NgModule, OnInit } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import * as AOS from 'aos';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+// import { ScrollToModule } from 'ng2-scroll-to-el';
+
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
 import { WorkComponent } from './components/work/work.component';
@@ -13,6 +16,7 @@ import { TechnologiesComponent } from './components/technologies/technologies.co
 import { ContactComponent } from './components/contact/contact.component';
 import { CareersComponent } from './components/careers/careers.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +29,12 @@ import { FooterComponent } from './components/footer/footer.component';
     TeamComponent,
     TechnologiesComponent,
     CareersComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
