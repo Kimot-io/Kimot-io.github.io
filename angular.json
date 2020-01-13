@@ -28,7 +28,9 @@
               "src/tailwind.scss",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/aos/dist/aos.js"
+            ],
             "customWebpackConfig": {
               "path": "extra-webpack.config.js"
             }
@@ -100,7 +102,9 @@
               "./node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/aos/dist/aos.js"
+            ]
           }
         },
         "lint": {

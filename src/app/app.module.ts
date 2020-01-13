@@ -3,7 +3,6 @@ import { NgModule, OnInit } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import * as AOS from 'aos';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 // import { ScrollToModule } from 'ng2-scroll-to-el';
 
@@ -39,8 +38,4 @@ import { NavComponent } from './components/nav/nav.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule implements OnInit {
-  ngOnInit() {
-    AOS.init();
-  }
-}
+export class AppModule { }
