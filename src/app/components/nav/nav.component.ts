@@ -19,9 +19,16 @@ import { ScrollToService, ScrollToConfigOptions } from '@nicky-lenaers/ngx-scrol
 })
 export class NavComponent implements OnInit {
 
+  rutaActiva = 'homeRoute';
+
   constructor(@Inject(DOCUMENT) document) { }
 
   ngOnInit() {
+    const element = document.getElementById('navbar');
+    element.classList.remove('sticky');
+    element.classList.add('mt-5');
+
+    this.logoClick();
   }
 
   @HostListener('window:scroll', ['$event'])
@@ -35,6 +42,29 @@ export class NavComponent implements OnInit {
       element.classList.remove('sticky');
       element.classList.add('mt-5');
     }
+  }
+
+  addActiveLinkStyle($event) {
+    // Remuevo estilo de componente activo
+    const element = document.getElementById(this.rutaActiva);
+    element.classList.remove('active-link');
+
+    // Agrego estilo a componente clickeado
+    $event.target.classList.add('active-link');
+    this.rutaActiva = $event.target.id;
+  }
+
+  logoClick() {
+    // Remuevo estilo de componente activo
+    let element = document.getElementById(this.rutaActiva);
+    element.classList.remove('active-link');
+
+    // Agrego estilo a componente clickeado
+    element = document.getElementById('homeRoute');
+    element.classList.add('active-link');
+    this.rutaActiva = 'homeRoute';
+
+    element.click();
   }
 
 }
